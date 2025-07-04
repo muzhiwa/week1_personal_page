@@ -1,3 +1,70 @@
 .logo {
     max-width: 80px;
 }
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #DD0000 !important;
+}
+
+h1, h2, h5 {
+    color: #FFCC00;
+    font-family: "Crimson Pro", serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h5 {
+    font-size: 35px;
+    color: #FFCC00 !important;
+}
+
+p, .uni, .navbar-nav {
+    font-family: "Prata", serif;
+}
+.btn-primary {
+    background-color: #DD0000;
+    border-color: #DD0000;
+    margin-bottom: 20px;
+    font-family:"Prata", serif;
+}
+
+.btn-primary:hover {
+    color: #FFCC00;
+    border-color: #FFCC00;
+    background-color: white;
+}
+
+footer {
+    background-color: white;
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: black;
+    background-color: white;
+}
+
+footer p {
+    color: black;
+}
